@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AlbumsMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubForms\AddAlbums.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubForms\AddTracks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubForms\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubForms\SearchResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TracksMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
