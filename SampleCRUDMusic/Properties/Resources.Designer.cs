@@ -113,6 +113,16 @@ namespace SampleCRUDMusic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap left_icon {
+            get {
+                object obj = ResourceManager.GetObject("left-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap next_icon {
             get {
                 object obj = ResourceManager.GetObject("next-icon", resourceCulture);
@@ -146,6 +156,16 @@ namespace SampleCRUDMusic.Properties {
         internal static System.Drawing.Bitmap previous_icon {
             get {
                 object obj = ResourceManager.GetObject("previous-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap right_icon {
+            get {
+                object obj = ResourceManager.GetObject("right-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

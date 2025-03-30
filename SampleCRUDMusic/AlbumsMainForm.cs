@@ -9,12 +9,24 @@ namespace SampleCRUDMusic
         {
             InitializeComponent();
             _context = context;
+            ShowDashboard(new Dashboard(_context));
         }
 
         private void panelSideBar_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+        public void ShowDashboard(object Form)
+        {
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.panelBody.Controls.Add(f);
+            this.panelBody.Tag = f;
+            f.Show();
+        }
+
         public void ShowAddAlbums(object Form)
         {
             if (this.panelBody.Controls.Count > 0)

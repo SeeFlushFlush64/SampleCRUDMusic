@@ -141,3 +141,5 @@ C:\Users\micha\source\repos\SampleCRUDMusic\SampleCRUDMusic\bin\Debug\net9.0-win
 C:\Users\micha\source\repos\SampleCRUDMusic\SampleCRUDMusic\bin\Debug\net9.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\micha\source\repos\SampleCRUDMusic\SampleCRUDMusic\obj\Debug\net9.0-windows\SampleCRUDMusic.csproj.AssemblyReference.cache
 C:\Users\micha\source\repos\SampleCRUDMusic\SampleCRUDMusic\obj\Debug\net9.0-windows\SampleCR.D5931DFA.Up2Date
+C:\Users\micha\source\repos\SampleCRUDMusic\SampleCRUDMusic\obj\Debug\net9.0-windows\SampleCRUDMusic.SubForms.Dashboard.resources
+C:\Users\micha\source\repos\SampleCRUDMusic\SampleCRUDMusic\obj\Debug\net9.0-windows\SampleCRUDMusic.sourcelink.json
