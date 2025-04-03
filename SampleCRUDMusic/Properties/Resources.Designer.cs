@@ -73,6 +73,16 @@ namespace SampleCRUDMusic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_tracks {
+            get {
+                object obj = ResourceManager.GetObject("add-tracks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap album_icon {
             get {
                 object obj = ResourceManager.GetObject("album-icon", resourceCulture);
@@ -106,6 +116,16 @@ namespace SampleCRUDMusic.Properties {
         internal static System.Drawing.Bitmap browse_icon {
             get {
                 object obj = ResourceManager.GetObject("browse-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap browse_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("browse-icon1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,6 +173,36 @@ namespace SampleCRUDMusic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap play_tracks {
+            get {
+                object obj = ResourceManager.GetObject("play-tracks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_tracks_big {
+            get {
+                object obj = ResourceManager.GetObject("play-tracks-big", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_tracks_medium {
+            get {
+                object obj = ResourceManager.GetObject("play-tracks-medium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap previous_icon {
             get {
                 object obj = ResourceManager.GetObject("previous-icon", resourceCulture);
@@ -183,9 +233,39 @@ namespace SampleCRUDMusic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap search_track {
+            get {
+                object obj = ResourceManager.GetObject("search-track", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shuffle_icon {
             get {
                 object obj = ResourceManager.GetObject("shuffle-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shuffle_tracks {
+            get {
+                object obj = ResourceManager.GetObject("shuffle-tracks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shuffle_tracks_active {
+            get {
+                object obj = ResourceManager.GetObject("shuffle-tracks-active", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

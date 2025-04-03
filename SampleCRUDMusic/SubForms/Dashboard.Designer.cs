@@ -91,43 +91,45 @@
             // 
             panelRecentlyAdded.Location = new Point(53, 116);
             panelRecentlyAdded.Name = "panelRecentlyAdded";
-            panelRecentlyAdded.Size = new Size(634, 228);
+            panelRecentlyAdded.Size = new Size(732, 228);
             panelRecentlyAdded.TabIndex = 7;
             // 
             // picBoxRALeft
             // 
             picBoxRALeft.Image = Properties.Resources.left_icon;
-            picBoxRALeft.Location = new Point(12, 164);
+            picBoxRALeft.Location = new Point(12, 199);
             picBoxRALeft.Name = "picBoxRALeft";
             picBoxRALeft.Size = new Size(35, 50);
             picBoxRALeft.SizeMode = PictureBoxSizeMode.StretchImage;
             picBoxRALeft.TabIndex = 8;
             picBoxRALeft.TabStop = false;
+            picBoxRALeft.MouseClick += picBoxRALeft_MouseClick;
             // 
             // picBoxRARight
             // 
             picBoxRARight.Image = Properties.Resources.right_icon;
-            picBoxRARight.Location = new Point(693, 164);
+            picBoxRARight.Location = new Point(791, 199);
             picBoxRARight.Name = "picBoxRARight";
             picBoxRARight.Size = new Size(35, 50);
             picBoxRARight.SizeMode = PictureBoxSizeMode.StretchImage;
             picBoxRARight.TabIndex = 9;
             picBoxRARight.TabStop = false;
+            picBoxRARight.MouseClick += picBoxRARight_MouseClick;
             // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(750, 400);
+            ClientSize = new Size(855, 400);
             Controls.Add(picBoxRARight);
             Controls.Add(picBoxRALeft);
-            Controls.Add(panelRecentlyAdded);
             Controls.Add(lblAlbumByGenre);
             Controls.Add(flowLayoutPanel2);
             Controls.Add(lblRecentlyAdded);
             Controls.Add(btnShowAllTracks);
             Controls.Add(btnShowAllAlbums);
+            Controls.Add(panelRecentlyAdded);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Dashboard";
             Text = "`";

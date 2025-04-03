@@ -12,6 +12,7 @@ namespace SampleCRUDMusic.Models.Entities
         public string TrackName { get; set; }
         public TimeSpan Duration { get; set; }
         public int AlbumId { get; set; }
+        public string FilePath { get; set; }
         public Album Album { get; set; }
     }
 }

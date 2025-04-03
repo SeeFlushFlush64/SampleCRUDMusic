@@ -5,11 +5,12 @@ namespace SampleCRUDMusic
     public partial class AlbumsMainForm : Form
     {
         private readonly AppDbContext _context;
+      
         public AlbumsMainForm(AppDbContext context)
         {
             InitializeComponent();
             _context = context;
-            ShowDashboard(new Dashboard(_context));
+            ShowDashboard(new Dashboard(_context, this));
         }
 
         private void panelSideBar_Paint(object sender, PaintEventArgs e)

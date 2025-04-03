@@ -45,7 +45,7 @@
             panelSideBar.BackColor = SystemColors.WindowFrame;
             panelSideBar.Location = new Point(0, 63);
             panelSideBar.Name = "panelSideBar";
-            panelSideBar.Size = new Size(60, 386);
+            panelSideBar.Size = new Size(60, 495);
             panelSideBar.TabIndex = 0;
             panelSideBar.Paint += panelSideBar_Paint;
             // 
@@ -53,16 +53,16 @@
             // 
             panelBottomBar.BackColor = SystemColors.ControlText;
             panelBottomBar.Dock = DockStyle.Bottom;
-            panelBottomBar.Location = new Point(0, 449);
+            panelBottomBar.Location = new Point(0, 554);
             panelBottomBar.Name = "panelBottomBar";
-            panelBottomBar.Size = new Size(800, 101);
+            panelBottomBar.Size = new Size(896, 101);
             panelBottomBar.TabIndex = 1;
             // 
             // panelBody
             // 
             panelBody.Location = new Point(57, 63);
             panelBody.Name = "panelBody";
-            panelBody.Size = new Size(740, 386);
+            panelBody.Size = new Size(839, 492);
             panelBody.TabIndex = 3;
             // 
             // picBoxAddAlbum
@@ -84,7 +84,7 @@
             panelTopBar.Dock = DockStyle.Top;
             panelTopBar.Location = new Point(0, 0);
             panelTopBar.Name = "panelTopBar";
-            panelTopBar.Size = new Size(800, 67);
+            panelTopBar.Size = new Size(896, 67);
             panelTopBar.TabIndex = 4;
             // 
             // picBoxSearch
@@ -102,7 +102,7 @@
             txtBoxSearchBar.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtBoxSearchBar.Location = new Point(155, 22);
             txtBoxSearchBar.Name = "txtBoxSearchBar";
-            txtBoxSearchBar.PlaceholderText = "What do you want to play?";
+            txtBoxSearchBar.PlaceholderText = "  What do you want to play?";
             txtBoxSearchBar.Size = new Size(326, 35);
             txtBoxSearchBar.TabIndex = 0;
             // 
@@ -111,12 +111,13 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(800, 550);
+            ClientSize = new Size(896, 655);
             Controls.Add(panelTopBar);
             Controls.Add(picBoxAddAlbum);
             Controls.Add(panelBody);
             Controls.Add(panelBottomBar);
             Controls.Add(panelSideBar);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "AlbumsMainForm";
             Text = "Albums";
             ((System.ComponentModel.ISupportInitialize)picBoxAddAlbum).EndInit();
@@ -131,7 +132,7 @@
 
         private Panel panelSideBar;
         private Panel panelBottomBar;
-        private Panel panelBody;
+        public Panel panelBody;
         private PictureBox picBoxAddAlbum;
         private Panel panelTopBar;
         private TextBox txtBoxSearchBar;

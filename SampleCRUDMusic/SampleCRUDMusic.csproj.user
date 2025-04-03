@@ -16,6 +16,9 @@
     <Compile Update="SubForms\SearchResults.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SubForms\ShowAlbumTracks.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TracksMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
